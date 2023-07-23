@@ -21,6 +21,6 @@
         android:clipToPadding="false"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         tools:itemCount="10"
-        tools:listitem=""/>
+        tools:listitem="@layout/item_user"/>
 
 </LinearLayout>
