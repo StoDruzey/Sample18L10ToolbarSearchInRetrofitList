@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/Widget.MaterialComponents.Toolbar.Primary"
-        app:title="@string/app_name"/>
+        app:title="@string/app_name"
+        app:menu="@menu/menu_toolbar"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view"
